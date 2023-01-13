@@ -1,0 +1,29 @@
+export function decodedValue(colors: string[]): number {
+  // PSEUDOCODE:
+  // loop through array of colors
+  // get the indexOf each color / use switch-case
+  // concat sum by indexOf
+  // splice the concat to 2 digits
+
+  // let sum: any = '';
+  var sum: string = ''
+
+  // let COLORS: string[] = [
+  //   'black', //0
+  //   'brown',//1
+  //   'red', //2
+  //   'orange', //3
+  //   'yellow', //4
+  //   'green', //5
+  //   'blue', //6
+  //   'violet', //7
+  //   'grey', //8
+  //   'white', //9
+  // ]
+
+  for (var color in colors) {
+    //  sum = sum.concat(`${COLORS.indexOf(color)}`)
+  }
+
+  return parseInt(sum)
+}
